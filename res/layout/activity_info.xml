@@ -1,0 +1,92 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".InfoActivity" >
+
+    <RelativeLayout android:id="@+id/relativeLayout1" 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF">
+    
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="#FFFFFF"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="Disclaimer:"
+                android:textColor="#0000FF"
+                android:textSize="20dip" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dip"
+                android:text="All information contained in this application is for reference only. All users should know and understand any and all laws that are applicable to them."
+                android:textColor="#000000"
+                android:textSize="15dip" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="Help Development:"
+                android:textColor="#0000FF"
+                android:textSize="20dip" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dip"
+                android:text="This application is brought to you completely free of charge, without any adds. I am a strong believe in the Constitution of these United States of America. I believe it is the right of the people to keep and bear arms, and I created this application to help keep fellow Missourians informed. If you would like to help support the development of this application, and applications like this one, click on the donate button below."
+                android:textColor="#000000"
+                android:textSize="15dip" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/donateButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true"
+                android:layout_weight="0.11"
+                android:maxHeight="128px"
+                android:maxWidth="128px"
+                android:scaleType="center"
+                android:src="@drawable/btn_donate" />
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="Thanks:"
+                android:textColor="#0000FF"
+                android:textSize="20dip" >
+            </TextView>
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dip"
+                android:text="Brandon (for the images)\nkcrobbie24 (for a couple law updates)"
+                android:textColor="#000000"
+                android:textSize="15dip" >
+            </TextView>
+        </LinearLayout>
+
+</RelativeLayout>
+</ScrollView>

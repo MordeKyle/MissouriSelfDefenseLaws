@@ -3,6 +3,7 @@ package com.mordekyle.missouriselfdefenselaws;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.widget.Button;
 import android.content.Intent;
 import android.view.View;
@@ -25,16 +26,16 @@ public class MainActivity extends Activity {
 	    	   }
 	    	   });
 	
-	Button ccw = (Button) findViewById(R.id.btnCCW);
-		ccw.setOnClickListener(new View.OnClickListener() {
-			
-			public void onClick(View argo0) {
-				
-			Intent ccw = new Intent(MainActivity.this, CCWActivity.class);
-			startActivity(ccw);
-			
-			}
-			});
+	       Button ccw = (Button) findViewById(R.id.btnCCW);
+	   	ccw.setOnClickListener(new View.OnClickListener() {
+	   		
+	   		public void onClick(View argo0) {
+	   			
+	   		Intent ccw = new Intent(MainActivity.this, CCWActivity.class);
+	   		startActivity(ccw);
+	   		
+	   		}
+	   		});
 	
 	Button rec = (Button) findViewById(R.id.btnRec);
 	rec.setOnClickListener(new View.OnClickListener() {
@@ -56,15 +57,29 @@ public class MainActivity extends Activity {
 		startActivity(knife);
 		
 		}
-		});}
-		
+		});
+	
+	;}
+	
 		
 	
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.activity_main, menu);
-		return true;}}
+		return true;}
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item)
+	{
+		switch (item.getItemId())
+		{
+		case R.id.menu_settings:
+			Intent info = new Intent(MainActivity.this, InfoActivity.class);
+			startActivity(info);
+		}
+		return true;
+	}}
 	
 
 

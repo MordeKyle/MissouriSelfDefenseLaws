@@ -46,6 +46,7 @@
     Florida\n
     Georgia\n
     Idaho\n
+    Illinois*\n
     Indiana\n
     Iowa\n
     Kansas\n
@@ -73,6 +74,7 @@
     Virginia\n
     Washington\n
     West Virginia\n
+    Wisconsin**\n
     Wyoming"></TextView>
             
             <TextView android:id="@+id/textView1" 
@@ -93,7 +95,6 @@
     Connecticut\n
     Guam Territory\n
     Hawaii\n
-    Illinois\n
     Maine\n
     Maryland\n
     Massachusetts\n
@@ -104,8 +105,18 @@
     Puerto Rico Territory\n
     Rhode Island\n
     United States Virgin Islands Territory\n
-    Washington D.C. (District of Columbia)\n
-    Wisconsin"></TextView>
+    Washington D.C. (District of Columbia)"></TextView>
+            <TextView android:id="@+id/textView1" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:textColor="#FF0000" 
+            android:textSize="9dip"
+            android:text="\n
+  *Carry only permitted in vehicle per Illinois Public Act 098-0063 Effective
+    07/09/2013. Firearm must be locked in vehicle when vehicle is not occupied.
+  **Wisconsin only honors a Missouri Concealed Carry license ISSUED OR 
+     RENEWED ON OR AFTER 08/28/2013. This DOES NOT include any 
+     provisional license issued by the state."></TextView>
     
 </LinearLayout>
 </RelativeLayout>

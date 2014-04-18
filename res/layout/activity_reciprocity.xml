@@ -1,0 +1,112 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".ReciprocityActivity" >
+
+    <RelativeLayout android:id="@+id/relativeLayout1" 
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+    
+        <LinearLayout android:layout_height="wrap_content" 
+        android:id="@+id/linearLayout1" 
+        android:orientation="vertical" 
+        android:layout_width="wrap_content" 
+        android:layout_alignParentLeft="true"
+        android:background="#FFFFFF">
+        
+            <TextView android:id="@+id/textView1" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:text="Missouri Reciprocity" 
+            android:layout_marginTop="5dip" 
+            android:textColor="#FF0000"
+            android:textSize="20dip"></TextView>
+            <TextView android:id="@+id/textView1" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:text="Where is your permit valid?" 
+            android:layout_marginTop="10dip" 
+            android:textColor="#0000FF"
+            android:textSize="20dip"></TextView>
+            <TextView android:id="@+id/textView1" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:textColor="#000000" 
+            android:textSize="15dip"
+            android:layout_marginTop="0dip" 
+            android:text="
+    Alabama\n
+    Alaska\n
+    Arizona\n
+    Arkansas\n
+    Colorado\n
+    Delaware\n
+    Florida\n
+    Georgia\n
+    Idaho\n
+    Indiana\n
+    Iowa\n
+    Kansas\n
+    Kentucky\n
+    Louisiana\n
+    Michigan\n
+    Minnesota\n
+    Mississippi\n
+    Montana\n
+    Nebraska\n
+    Nevada\n
+    New Hampshire\n
+    New Mexico\n
+    North Carolina\n
+    North Dakota\n
+    Ohio\n
+    Oklahoma\n
+    Pennsylvania\n
+    South Carolina\n
+    South Dakota\n
+    Tennessee\n
+    Texas\n
+    Utah\n
+    Vermont\n
+    Virginia\n
+    Washington\n
+    West Virginia\n
+    Wyoming"></TextView>
+            
+            <TextView android:id="@+id/textView1" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:text="Where is your permit NOT valid?" 
+            android:layout_marginTop="10dip" 
+            android:textColor="#0000FF"
+            android:textSize="20dip"></TextView>
+            <TextView android:id="@+id/textView1" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:textColor="#000000" 
+            android:textSize="15dip"
+            android:text="
+    American Samoa Territory\n
+    California\n
+    Connecticut\n
+    Guam Territory\n
+    Hawaii\n
+    Illinois\n
+    Maine\n
+    Maryland\n
+    Massachusetts\n
+    New Jersey\n
+    New York\n
+    Northern Mariana Islands Territory\n
+    Oregon\n
+    Puerto Rico Territory\n
+    Rhode Island\n
+    United States Virgin Islands Territory\n
+    Washington D.C. (District of Columbia)\n
+    Wisconsin"></TextView>
+    
+</LinearLayout>
+</RelativeLayout>
+</ScrollView>

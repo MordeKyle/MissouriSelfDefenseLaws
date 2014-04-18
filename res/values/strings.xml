@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Missouri Self Defense Laws</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="version">Ver. 0.3.a</string>
+    <string name="title_activity_ccw">CCWActivity</string>
+    <string name="title_activity_knife">KnifeActivity</string>
+    <string name="title_activity_reciprocity">ReciprocityActivity</string>
+
+</resources>

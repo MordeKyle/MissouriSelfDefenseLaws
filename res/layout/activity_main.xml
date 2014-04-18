@@ -1,0 +1,40 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/tableLayout1" 
+    android:background="#dde0e4">
+        <TextView android:id="@+id/textView1" android:gravity="right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#00698f" android:text="@string/version"></TextView>
+        <ImageView android:src="@drawable/mo_250" android:layout_width="wrap_content" android:id="@+id/imageView1" android:layout_height="wrap_content"></ImageView>
+        <TextView android:text="Self Defense" android:layout_gravity="center_horizontal" android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center_horizontal" android:textColor="#00698f" android:textSize="40dip"></TextView>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Laws For Missouri"
+            android:textColor="#00698f"
+            android:textSize="30dip" >
+</TextView>
+        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/tableRow1">
+            <Button android:layout_height="wrap_content" android:id="@+id/btnCCW" android:text="CCW Laws" android:textColor="#00698f" android:layout_width="fill_parent" android:layout_weight="1"></Button>
+            <Button android:layout_height="wrap_content" android:id="@+id/btnRec" android:text="Reciprocity" android:textColor="#00698f" android:layout_width="fill_parent" android:layout_weight="1"></Button>
+        </TableRow>
+        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/tableRow2">
+            <Button android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/btnknife" android:text="Knife Laws" android:textColor="#00698f" android:layout_width="fill_parent"></Button>
+            <Button android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/video" android:text="Record Video" android:textColor="#FF0000" android:layout_width="fill_parent"></Button>
+        </TableRow>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Copyright © Kyle McBride 2013"
+            android:textColor="#FF0000" >
+</TextView>
+        <TextView android:id="@+id/textView5" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="All Rights Reserved" android:textColor="#FF0000"></TextView>
+        
+    </TableLayout>

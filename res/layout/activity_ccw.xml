@@ -1,0 +1,137 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/viewalabama"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:fillViewport="true">
+    <RelativeLayout android:id="@+id/relativeLayout1" 
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+     
+        <LinearLayout android:layout_height="wrap_content" 
+        android:id="@+id/linearLayout1" 
+        android:orientation="vertical" 
+        android:layout_width="wrap_content" 
+        android:layout_alignParentLeft="true"
+        android:background="#FFFFFF">
+        
+            <TextView android:id="@+id/textView1" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:text="CCW Laws" 
+            android:textColor="#000000" 
+            android:textStyle="bold"></TextView>
+            <TextView android:id="@+id/textView1" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:text="Must Inform Officer: NO, unless asked." 
+            android:layout_marginTop="5dip" 
+            android:textColor="#FF0000" 
+            android:textSize="18dip"></TextView>
+            <TextView android:id="@+id/textView1" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:textColor="#0000FF" 
+            android:text="Summary" 
+            android:layout_marginTop="5dip"
+            android:textSize="20dip"></TextView>
+               <TextView android:text="Airport Carry: Parking Lots and Terminal OK 571.107\n
+\n
+Training Valid for: No set time limit.\n
+\n
+Time Period to Establish Residency: Upon Obtaining State Drivers License/ID\n
+\n
+Minimum Age for Permit/License: 21 Y/O --- 18 Y/O if a Veteran or in the Military\n
+\n
+Permit/License Info Public Information: NO\n
+\n
+State Fire arm Laws: 571.01 thru .150 and 578.305\n
+\n
+State Deadly Force Laws: 563.026. thru 563.070\n
+\n
+State Knife Laws: 571.010 thru 571.020\n
+\n
+Chemical/Electric Weapons Laws: No laws found.\n
+\n
+Body Armor Laws: No Laws Found.\n
+\n
+Does Your Permit Cover Other Weapons Besides Firearms? YES\n
+\n
+Is Carrying of a Concealed Firearm with Permit/License for Defensive Purposes Only While Hunting Legal? YES MO Administrative Rules Dept of
+Conservation 3 CSR 10-7.431 and 3 CSR 10-7.432" 
+            android:id="@+id/textView1" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:textColor="#000000"
+            android:textSize="15dip"></TextView>
+               <TextView android:id="@+id/textView1" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:textColor="#FF0000" 
+            android:text="Places Off-Limits Even With A Permit/License" 
+            android:layout_marginTop="5dip"
+            android:textSize="20dip"></TextView>
+                <TextView android:id="@+id/textView1" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:textColor="#0000FF" 
+            android:text="RSMo 571.107"
+            android:textSize="17dip"></TextView>
+            	<TextView android:text="
+1. Endorsement Does Not Authorize Concealed Firearms, Where:\n
+(1) Any police, sheriff, or highway patrol office or station without the consent of the chief law enforcement officer in charge of that office or station. Possession of a firearm in a vehicle on the premises of the office or station shall not be a criminal offense so long as the firearm is not removed from the vehicle or brandished while the vehicle is on the premises;\n
+\n(2) Within twenty-five feet of any polling place on any election day. Possession of a firearm in a vehicle on the premises of the polling place shall not be a criminal offense so long as the firearm is not removed from the vehicle or brandished while the vehicle is on the premises;\n
+\n(3) The facility of any adult or juvenile detention or correctional institution, prison or jail. Possession of a firearm in a vehicle on the premises of any adult, juvenile detention, or correctional institution, prison or jail shall not be a criminal offense so long as the firearm is not removed from the vehicle or brandished while the vehicle is on the premises;\n
+\n(4) Any courthouse solely occupied by the circuit, appellate or supreme court, or any courtrooms, administrative offices, libraries or other rooms of any such court whether or not such court solely occupies the building in question. This subdivision shall also include, but not be limited to, any juvenile, family, drug, or other court offices, any room or office wherein any of the courts or offices listed in this subdivision are temporarily conducting any business within the jurisdiction of such courts or offices, and such other locations in such manner as may be specified by supreme court rule pursuant to subdivision (6) of this subsection. Nothing in this subdivision shall preclude those persons listed in subdivision (1) of subsection 2 of section 571.030 while within their jurisdiction and on duty, those persons listed in subdivisions (2), (4), and (10) of subsection 2 of section 571.030, or such other persons who serve in a law enforcement capacity for a court as may be specified by supreme court rule pursuant to subdivision (6) of this subsection from carrying a concealed firearm within any of the areas described in this subdivision. Possession of a firearm in a vehicle on the premises of any of the areas listed in this subdivision shall not be a criminal offense so long as the firearm is not removed from the vehicle or brandished while the vehicle is on the premises;\n
+\n(5) Any meeting of the governing body of a unit of local government; or any meeting of the general assembly or a committee of the general assembly, except that nothing in this subdivision shall preclude a member of the body holding a valid concealed carry endorsement from carrying a concealed firearm at a meeting of the body which he or she is a member. Possession of a firearm in a vehicle on the premises shall not be a criminal offense so long as the firearm is not removed from the vehicle or brandished while the vehicle is on the premises;\n
+\n(6) The general assembly, supreme court, county or municipality may by rule, administrative regulation, or ordinance prohibit or limit the carrying of concealed firearms by endorsement holders in that portion of a building owned, leased or controlled by that unit of government. Any portion of a building in which the carrying of concealed firearms is prohibited or limited shall be clearly identified by signs posted at the entrance to the restricted area. The statute, rule or ordinance shall exempt any building used for public housing by private persons, highways or rest areas, firing ranges, and private dwellings owned, leased, or controlled by that unit of government from any restriction on the carrying or possession of a firearm. The statute, rule or ordinance shall not specify any criminal penalty for its violation but may specify that persons violating the statute, rule or ordinance may be denied entrance to the building, ordered to leave the building and if employees of the unit of government, be subjected to disciplinary measures for violation of the provisions of the statute, rule or ordinance. The provisions of this subdivision shall not apply to any other unit of government;\n
+\n(7) Any establishment licensed to dispense intoxicating liquor for consumption on the premises, which portion is primarily devoted to that purpose, without the consent of the owner or manager. The provisions of this subdivision shall not apply to the licensee of said establishment. The provisions of this subdivision shall not apply to any bona fide restaurant open to the general public having dining facilities for not less than fifty persons and that receives at least fifty-one percent of its gross annual income from the dining facilities by the sale of food. This subdivision does not prohibit the possession of a firearm in a vehicle on the premises of the establishment and shall not be a criminal offense so long as the firearm is not removed from the vehicle or brandished while the vehicle is on the premises. Nothing in this subdivision authorizes any individual who has been issued a concealed carry endorsement to possess any firearm while intoxicated;\n
+\n(8) Any area of an airport to which access is controlled by the inspection of persons and property. Possession of a firearm in a vehicle on the premises of the airport shall not be a criminal offense so long as the firearm is not removed from the vehicle or brandished while the vehicle is on the premises;\n
+\n(9) Any place where the carrying of a firearm is prohibited by federal law;\n
+\n(10) Any higher education institution or elementary or secondary school facility without the consent of the governing body of the higher education institution or a school official or the district school board. Possession of a firearm in a vehicle on the premises of any higher education institution or elementary or secondary school facility shall not be a criminal offense so long as the firearm is not removed from the vehicle or brandished while the vehicle is on the premises;\n
+\n(11) Any portion of a building used as a child-care facility without the consent of the manager. Nothing in this subdivision shall prevent the operator of a child-care facility in a family home from owning or possessing a firearm or a driver's license or nondriver's license containing a concealed carry endorsement;\n
+\n(12) Any riverboat gambling operation accessible by the public without the consent of the owner or manager pursuant to rules promulgated by the gaming commission. Possession of a firearm in a vehicle on the premises of a riverboat gambling operation shall not be a criminal offense so long as the firearm is not removed from the vehicle or brandished while the vehicle is on the premises;\n
+\n(13) Any gated area of an amusement park. Possession of a firearm in a vehicle on the premises of the amusement park shall not be a criminal offense so long as the firearm is not removed from the vehicle or brandished while the vehicle is on the premises;\n
+\n(14) Any church or other place of religious worship without the consent of the minister or person or persons representing the religious organization that exercises control over the place of religious worship. Possession of a firearm in a vehicle on the premises shall not be a criminal offense so long as the firearm is not removed from the vehicle or brandished while the vehicle is on the premises;\n
+\n(15) Any private property whose owner has posted the premises as being off-limits to concealed firearms by means of one or more signs displayed in a conspicuous place of a minimum size of eleven inches by fourteen inches with the writing thereon in letters of not less than one inch. The owner, business or commercial lessee, manager of a private business enterprise, or any other organization, entity, or person may prohibit persons holding a concealed carry endorsement from carrying concealed firearms on the premises and may prohibit employees, not authorized by the employer, holding a concealed carry endorsement from carrying concealed firearms on the property of the employer. If the building or the premises are open to the public, the employer of the business enterprise shall post signs on or about the premises if carrying a concealed firearm is prohibited. Possession of a firearm in a vehicle on the premises shall not be a criminal offense so long as the firearm is not removed from the vehicle or brandished while the vehicle is on the premises. An employer may prohibit employees or other persons holding a concealed carry endorsement from carrying a concealed firearm in vehicles owned by the employer;\n
+\n(16) Any sports arena or stadium with a seating capacity of five thousand or more. Possession of a firearm in a vehicle on the premises shall not be a criminal offense so long as the firearm is not removed from the vehicle or brandished while the vehicle is on the premises;\n
+\n(17) Any hospital accessible by the public. Possession of a firearm in a vehicle on the premises of a hospital shall not be a criminal offense so long as the firearm is not removed from the vehicle or brandished while the vehicle is on the premises.\n
+\n571.030 Section 10: Carries a firearm, whether loaded or unloaded, or any other weapon readily capable of lethal use into any school, onto any school bus, or onto the premises of any function or activity sponsored or sanctioned by school officials or the district school board." 
+            android:id="@+id/textView1" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:textColor="#000000"
+            android:textSize="15dip"></TextView>
+            <TextView android:id="@+id/textView1" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:textColor="#FF0000" 
+            android:text="***Carrying of a concealed firearm in a location specified in subdivisions (1) to (17) of subsection 1 of this section by any individual who holds a concealed carry endorsement issued pursuant to sections 571.101 to 571.121 shall not be a criminal act but may subject the person to denial to the premises or removal from the premises. If such person refuses to leave the premises and a peace officer is summoned, such person may be issued a citation for an amount not to exceed one hundred dollars for the first offense. If a second citation for a similar violation occurs within a six-month period, such person shall be fined an amount not to exceed two hundred dollars and his or her endorsement to carry concealed firearms shall be suspended for a period of one year. If a third citation for a similar violation is issued within one year of the first citation, such person shall be fined an amount not to exceed five hundred dollars and shall have his or her concealed carry endorsement revoked and such person shall not be eligible for a concealed carry endorsement for a period of three years."
+            android:textSize="15dip"></TextView>
+            
+            <TextView android:id="@+id/textView1" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:textColor="#FF0000" 
+            android:text="Do 'No Gun Signs' Have the Force of Law?" 
+            android:layout_marginTop="5dip"
+            android:textSize="20dip"></TextView>
+            <TextView android:id="@+id/textView1" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:textColor="#0000FF" 
+            android:text="YES/NO\nRSMo 571.107\nBut have no penalty UNLESS you refuse to leave or repeat the offense in a set period, see below:"
+            android:textSize="15dip"></TextView>
+            <TextView android:id="@+id/textView1" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:textColor="#000000" 
+            android:text="1st Offense: Fine up to $100\n
+            \n2nd Offense within 6 months: Fine up to $200 and 1 year suspension of CCW\n
+            \n3rd Offnese within 1 year: Fine up to $500 and revokation of CCW and not eligible for CCW for 3 years."
+            android:textSize="15dip"></TextView>
+            
+            
+            </LinearLayout>
+            </RelativeLayout>
+            </ScrollView>

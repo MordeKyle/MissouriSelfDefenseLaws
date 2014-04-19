@@ -48,6 +48,16 @@ public class MainActivity extends Activity {
 		}
 		});
 	
+	/*Button castle = (Button) findViewById(R.id.cstlButton);
+	castle.setOnClickListener(new View.OnClickListener()
+	{
+		public void onClick(View arg0)
+		{
+			Intent cstl = new Intent(MainActivity.this, CastleActivity.class);
+			startActivity(cstl);
+		}
+	});*/
+	
 	Button knife = (Button) findViewById(R.id.btnknife);
 	knife.setOnClickListener(new View.OnClickListener() {
 		

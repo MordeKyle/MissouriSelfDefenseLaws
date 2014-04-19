@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.mordekyle.missouriselfdefenselaws"
-    android:versionCode="5"
-    android:versionName="0.6.a">
+    android:versionCode="6"
+    android:versionName="0.7.a">
 
     <uses-sdk
         android:minSdkVersion="8"
@@ -40,6 +40,11 @@
         </activity>
         <activity
             android:name="com.mordekyle.missouriselfdefenselaws.InfoActivity"
+            android:label="@string/title_activity_reciprocity" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.mordekyle.missouriselfdefenselaws.CastleActivity"
             android:label="@string/title_activity_reciprocity" 
             android:screenOrientation="portrait">
         </activity>

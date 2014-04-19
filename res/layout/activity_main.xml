@@ -27,6 +27,13 @@
             <Button android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/video" android:text="Record Video" android:textColor="#FF0000" android:layout_width="fill_parent"></Button>
         </TableRow>
 
+        <!-- <Button
+            android:id="@+id/cstlButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#00698f"
+            android:text="Castle Doctrine" /> -->
+
         <TextView
             android:id="@+id/textView4"
             android:layout_width="wrap_content"

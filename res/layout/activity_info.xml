@@ -52,7 +52,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="0dip"
-                android:text="This application is brought to you completely free of charge, without any adds. I am a strong believe in the Constitution of these United States of America. I believe it is the right of the people to keep and bear arms, and I created this application to help keep fellow Missourians informed. If you would like to help support the development of this application, and applications like this one, click on the donate button below."
+                android:text="This application is brought to you completely free of charge, without any ads. I am a strong believe in the Constitution of these United States of America. I believe it is the right of the people to keep and bear arms, and I created this application to help keep fellow Missourians informed. If you would like to help support the development of this application, and applications like this one, click on the donate button below."
                 android:textColor="#000000"
                 android:textSize="15dip" >
             </TextView>
